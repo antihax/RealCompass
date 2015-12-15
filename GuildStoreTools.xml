@@ -1,0 +1,23 @@
+<GuiXml>
+  <Controls>
+		<TopLevelControl name="GuildStoreToolsWindow" movable="true" resizeToFitDescendents="true" mouseEnabled="true" hidden="true" clampedToScreen="true" layer="BACKGROUND" tier="LOW">
+			<Dimensions x="400" y="600"/>
+			<Controls>
+				<Backdrop name="$(parent)Bg" inherits="ZO_DefaultBackdrop" movable="true">
+					<AnchorFill />
+				</Backdrop>
+		                <Button name="$(parent)Close" inherits="ZO_CloseButton" excludeFromResizeToFitExtents="true">
+					<Anchor point="TOPRIGHT" offsetX="-4" offsetY="4"/>
+				</Button>
+				<Label name="$(parent)Title" text="Guild Store Items" font="ZoFontWinH2" color="INTERFACE_COLOR_TYPE_TEXT_COLORS:INTERFACE_TEXT_COLOR_SELECTED">
+					<Anchor point="TOP" offsetY="6"/>
+				</Label>
+				<Texture name="$(parent)Divider" textureFile="EsoUI/Art/Miscellaneous/horizontalDivider.dds" excludeFromResizeToFitExtents="true">
+					<Dimensions y="4"/>
+					<Anchor point="TOPLEFT" relativeTo="$(parent)Bg" relativePoint="TOPLEFT" offsetY="34"/>
+					<Anchor point="TOPRIGHT" relativeTo="$(parent)Bg" relativePoint="TOPRIGHT" offsetY="34"/>
+				</Texture>
+			</Controls>
+		</TopLevelControl>
+   </Controls>
+</GuiXml>
