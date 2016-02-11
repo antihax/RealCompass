@@ -1,0 +1,19 @@
+<GuiXml>
+   <Controls>
+      <TopLevelControl name="RealCompassMain" clampedToScreen="true" DrawLayer="3" mouseEnabled="true" movable="true" hidden="false">
+         <Anchor point="BOTTOM" relativeTo="GuiRoot" relativePoint="CENTER" offsetY="-20" />
+         <Dimensions x="250" y="250" />
+         <OnMoveStop>
+        	REALCOMPASS_OnMoveStop()
+      	 </OnMoveStop>
+         
+         <Controls>
+               <Texture name="$(parent)_Fabric" layer="1" textureFile="RealCompass/RealCompass.dds">
+                  <Anchor point="TOPLEFT" relativeTo="$(parent)" />
+                  <Dimensions x="250" y="250" />
+               </Texture>
+         </Controls>
+         
+      </TopLevelControl>
+   </Controls>
+</GuiXml>
