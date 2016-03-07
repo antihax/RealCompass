@@ -1,8 +1,8 @@
 ## Title: RealCompass
 ## Author: @croakroach (Danni)
 ## Description: A simple compass addon to provide more accurate cardinals for PvP.
-## Version: 0.1.5
-## APIVersion: 100013
+## Version: 0.1.6
+## APIVersion: 100014
 ## SavedVariables: RealCompassSavedVariables
 
 RealCompass.lua
